@@ -1,0 +1,13 @@
+disabled_rules:
+  - function_parameter_count
+  - identifier_name
+  - notification_center_detachment
+  - todo
+line_length: 160
+type_body_length:
+  - 200 # warning
+  - 300 # error
+file_length:
+  warning: 500
+  error: 800
+function_body_length: 45
