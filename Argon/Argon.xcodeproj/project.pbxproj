@@ -80,6 +80,7 @@
 				8886E4331F8EBB8D003FAD2A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		8886E4331F8EBB8D003FAD2A /* Products */ = {
 			isa = PBXGroup;
@@ -201,7 +202,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Esteban Torres";
+				ORGANIZATIONNAME = Argonon;
 				TargetAttributes = {
 					8886E4311F8EBB8D003FAD2A = {
 						CreatedOnToolsVersion = 9.0;
