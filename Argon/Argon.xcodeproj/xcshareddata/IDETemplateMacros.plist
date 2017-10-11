@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FILEHEADER</key>
+	<string>  ___FILENAME___ was created on ___DATE___
+//  «___PROJECTNAME___» is project of «___ORGANIZATIONNAME___» organization.
+//  Copyright (c) 2017 Argonon</string>
+	<key>DEFAULTTOOLCHAINSWIFTVERSION</key>
+	<string>4.0</string>
+	<key>ORGANIZATIONNAME</key>
+	<string>Argonon</string>
+	<key>PRODUCTNAME</key>
+	<string>Argon</string>
+	<key>NSHUMANREADABLECOPYRIGHTPLIST</key>
+	<string>&lt;key&gt;NSHumanReadableCopyright&lt;/key&gt;
+&lt;string&gt;Copyright (c) 2017 Argonon&lt;/string&gt;</string>
+</dict>
+</plist>
