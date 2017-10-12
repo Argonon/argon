@@ -7,7 +7,8 @@ jobs:
       - checkout
       - run:
           name: Configure environment
-          command: bundle install --path "./.vendor"
+          command: |
+            bundle install --path "./.vendor"
           working_directory: Argon
       - run: 
           command: bundle exec fastlane scan
@@ -17,13 +18,15 @@ jobs:
       - image: dantoml/swiftlint
     steps:
       - checkout
-      - run: swiftlint
+      - run: 
+          command: swiftlint
+          working_directory: Argon
 
 workflows:
   version: 2
   workflow:
     jobs:
-      - build
+      - lint
+      - build:
           requires:
             - lint
-      - lint
