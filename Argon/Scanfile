@@ -1,0 +1,18 @@
+# For more information about this configuration visit
+# https://github.com/fastlane/fastlane/tree/master/scan#scanfile
+
+# In general, you can use the options available
+# fastlane scan --help
+
+open_report false
+clean true
+#output_types 'html junit'
+buildlog_path '~/Library/Logs/scan'
+project "./Argon.xcodeproj"
+scheme "Argon"
+skip_build false
+output_directory "./test_output"
+include_simulator_logs false
+skip_slack false
+slack_only_on_failure false
+use_clang_report_name false
