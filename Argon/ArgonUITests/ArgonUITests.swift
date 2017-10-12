@@ -10,7 +10,6 @@ class ArgonUITests: XCTestCase {
 		super.setUp()
 		
 		continueAfterFailure = false
-		XCUIApplication().launch()
 	}
 	
 	override func tearDown() {
@@ -18,6 +17,7 @@ class ArgonUITests: XCTestCase {
 	}
 	
 	func testExample() {
+		XCUIApplication().launch()
 		XCTFail("Unimplemented test \(#function)")
 	}
 }

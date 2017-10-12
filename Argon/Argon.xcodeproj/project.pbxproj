@@ -95,7 +95,7 @@
 		8886E4341F8EBB8D003FAD2A /* Argon */ = {
 			isa = PBXGroup;
 			children = (
-				8886E43D1F8EBB8D003FAD2A /* Argon.entitlements */,
+				8886E47E1F8FA12B003FAD2A /* Supporting Files */,
 				8886E43C1F8EBB8D003FAD2A /* Info.plist */,
 				8886E4371F8EBB8D003FAD2A /* Assets.xcassets */,
 				8886E4601F8EBBA0003FAD2A /* Classes */,
@@ -136,6 +136,14 @@
 				8886E4351F8EBB8D003FAD2A /* AppDelegate.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		8886E47E1F8FA12B003FAD2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8886E43D1F8EBB8D003FAD2A /* Argon.entitlements */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
