@@ -6,15 +6,15 @@ import XCTest
 @testable import Argon
 
 class ArgonTests: XCTestCase {
-	
+
 	override func setUp() {
 		super.setUp()
 	}
-	
+
 	override func tearDown() {
 		super.tearDown()
 	}
-	
+
 	func testExample() {
 		XCTFail("Unimplemented test \(#function)")
 	}

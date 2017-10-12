@@ -5,17 +5,17 @@
 import XCTest
 
 class ArgonUITests: XCTestCase {
-	
+
 	override func setUp() {
 		super.setUp()
-		
+
 		continueAfterFailure = false
 	}
-	
+
 	override func tearDown() {
 		super.tearDown()
 	}
-	
+
 	func testExample() {
 		XCUIApplication().launch()
 		XCTFail("Unimplemented test \(#function)")
