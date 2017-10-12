@@ -6,11 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Install Gems
-        command: bundle install --path "./.vendor" --no-rdoc --no-ri
-        working_directory: Argon
-      - run:
-          name: Run Tests
+          name: Configure environment
+          command: bundle install --path "./.vendor"
+          working_directory: Argon
+      - run: 
           command: bundle exec fastlane scan
           working_directory: Argon
   lint:
