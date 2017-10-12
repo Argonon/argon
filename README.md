@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/Argonon/argon.svg?style=svg)](https://circleci.com/gh/Argonon/argon)
+
 ![](Web/argon.jpg)
 
 # argon
